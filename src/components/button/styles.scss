@@ -1,0 +1,23 @@
+@use '../../mainStyle';
+
+.button {
+  padding: 10px;
+  margin: 5px;
+  background-color: mainStyle.$main-color-alt;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s;
+
+  font-family: mainStyle.$main-font;
+  color: rgb(33, 33, 34);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: mainStyle.$main-color-alt--hover;
+    transition: all 0.3s;
+  }
+}

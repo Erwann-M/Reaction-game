@@ -1,0 +1,32 @@
+@use '../../mainStyle';
+
+.game {
+  background-color: mainStyle.$second-color;
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__container {
+    background-color: mainStyle.$second-color-alt;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+
+    font-family: mainStyle.$main-font;
+    color: aliceblue;
+    font-weight: 400;
+
+    &__text {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    &__counters {
+      font-size: 40px;
+      margin-bottom: 10px;
+      align-self: flex-start;
+    }
+  }
+}

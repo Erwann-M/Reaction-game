@@ -1,0 +1,18 @@
+@use '../../mainStyle';
+
+.header {
+  background-color: mainStyle.$main-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+
+  &__logo {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  &__menu {
+    display: flex;
+  }
+}
