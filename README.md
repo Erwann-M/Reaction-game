@@ -1,8 +1,6 @@
-# React + Vite
+# Reactive test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small app in react for test your reactivity. Vintage watch style.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot 1](./src/assets/img/Capture%20d'écran%202024-11-12%20132352.png)
+![Screenshot 1](./src/assets/img/Capture%20d'écran%202024-11-12%20132407.png)
