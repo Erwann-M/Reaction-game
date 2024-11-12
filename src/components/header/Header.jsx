@@ -1,5 +1,5 @@
 import './styles.scss';
-import logo from '../../assets/time-logo.png';
+import logo from '../../assets/img/time-logo.png';
 import CustomButton from '../button/CustomButton';
 
 const Header = () => (

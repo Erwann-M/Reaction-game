@@ -53,12 +53,16 @@ class Game extends Component {
     return(
       <div className="game">
         <div className='game__container'>
-          <p className='game__container__text'>Arrête toi le plus proche possible du chiffre.</p>
-          <p className='game__container__counters random'>{this.state.randomTime}</p>
-          <p className='game__container__counters player'>{this.state.playerTime.toFixed(2)}</p>
-          <button className='game__container__button' onClick={this.state.buttonStatus == "stop" ? this.stopCounter : this.startCounter}>{this.state.buttonStatus}</button>
-          <p className='game__container__result'>{this.state.result}</p>
-          <CustomButton action={() => window.location.reload()} text="Recommencer" />
+          <div className='game__container--line'>
+            <div className='game__container--second-line'>
+              <p className='game__container__text'><span>Arrête toi</span> le plus proche du chiffre.</p>
+              <p className='game__container__counters'>{this.state.randomTime}</p>
+              <p className='game__container__counters'>{this.state.playerTime.toFixed(2)}</p>
+              <button className='game__container__button' onClick={this.state.buttonStatus == "stop" ? this.stopCounter : this.startCounter}>{this.state.buttonStatus}</button>
+              <p className='game__container__text'>{this.state.result}</p>
+              <CustomButton action={() => window.location.reload()} text="Recommencer" />
+            </div>
+          </div>
         </div>
       </div>
     )
